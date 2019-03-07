@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <title>APP Doc</title>
+
+  <!--<link href="styles/kendo.mobile.all.min.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.mobile.all.min.css"/>
+  <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.common.min.css"/>
+  <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.rtl.min.css"/>
+  <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.1.220/styles/kendo.silver.min.css"/>
+
+  <link rel="stylesheet" href="styles/aplication.css">
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/kendo.all.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
+  <!--<script src="https://kendo.cdn.telerik.com/2019.1.220/js/kendo.all.min.js"></script>-->
+</head>
+
+<body>
+
+<div id="home"
+     data-role="view"
+     data-layout="default">
+
+  <ul data-role="listview"
+      data-style="inset">
+    <li>
+      <label for="username"
+             class="km-required km-label-above">
+        Usuario:
+        <input type="text" id="username"/>
+      </label>
+    </li>
+    <li>
+      <label for="password"
+             class="km-required km-label-above">
+        Senha:
+        <input type="password" id="password"/>
+      </label>
+    </li>
+  </ul>
+
+  <a data-click="onClickLogin"
+     data-role="button"
+     class="km-primary km-justified">
+    Login
+  </a>
+</div>
+
+
+<!-- LAYOUT DEFAULT -->
+<!-- ---------------------------------------------- -->
+<section data-role="layout"
+         data-id="default">
+  <header data-role="header">
+    <div data-role="navbar">
+      Doc APP
+    </div>
+  </header>
+
+  <footer data-role="footer">
+    <div data-role="tabstrip">
+      Versão 1.2.3.4
+    </div>
+  </footer>
+</section>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>

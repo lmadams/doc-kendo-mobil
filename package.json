@@ -1,0 +1,11 @@
+{
+  "name": "doc-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Lucas Adams",
+  "license": "ISC"
+}
