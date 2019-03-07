@@ -13,7 +13,6 @@
 
   <link rel="stylesheet" href="styles/aplication.css">
 
-
   <script src="js/jquery.min.js"></script>
   <script src="js/kendo.all.min.js"></script>
   <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
@@ -22,33 +21,42 @@
 
 <body>
 
+<!-- tela home (login) -->
+<!-- ---------------------------------------------- -->
 <div id="home"
      data-role="view"
      data-layout="default">
 
-  <ul data-role="listview"
-      data-style="inset">
-    <li>
-      <label for="username"
-             class="km-required km-label-above">
-        Usuario:
-        <input type="text" id="username"/>
-      </label>
-    </li>
-    <li>
-      <label for="password"
-             class="km-required km-label-above">
-        Senha:
-        <input type="password" id="password"/>
-      </label>
-    </li>
-  </ul>
+  <div class="login-view">
+    <div class="login-container">
 
-  <a data-click="onClickLogin"
-     data-role="button"
-     class="km-primary km-justified">
-    Login
-  </a>
+      <h3 class="login-title">Bem vindo!</h3>
+
+      <ul data-role="listview"
+          data-style="inset">
+        <li>
+          <label for="username"
+                 class="km-required km-label-above">
+            Usuario:
+            <input type="text" id="username"/>
+          </label>
+        </li>
+        <li>
+          <label for="password"
+                 class="km-required km-label-above">
+            Senha:
+            <input type="password" id="password"/>
+          </label>
+        </li>
+      </ul>
+
+      <a data-click="onClickLogin"
+         data-role="button"
+         class="km-primary km-justified button-login">
+        Login
+      </a>
+    </div>
+  </div>
 </div>
 
 

@@ -1,3 +1,27 @@
+.login-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - (51px + 16px));
+}
+
+.login-container {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .4), 0 0 4px rgba(0, 0, 0, .4);
+    border: solid 1px #00B0FF;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.login-title {
+    text-align: center;
+}
+
+.button-login {
+    width: 100%;
+}
+
 .menu-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,3 +43,5 @@
     border-radius: 8px;
     background-color: white;
 }
+
+
